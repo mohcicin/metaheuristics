@@ -1,0 +1,49 @@
+<map id="edaSerialize" name="edaSerialize">
+<area shape="rect" id="node3" href="$classedaAdaption.html" title="Lớp edaAdaption thực hiện việc cải tiến trên danh sách lời giải đầu vào dựa trên các giải thuật tìm k..." alt="" coords="184,32,291,61"/>
+<area shape="rect" id="node5" href="$classedaAspirCrit.html" title="Lớp trừu tượng edaAspirCrit thực hiện việc kiểm tra sự hợp lệ của các bước chuyển ứng viên..." alt="" coords="185,85,289,115"/>
+<area shape="rect" id="node11" href="$classedaChromosome.html" title="Lớp edaChromosome chứa thông tin về nhiễm sắc thể và các phương thức tương ứng. " alt="" coords="169,192,305,221"/>
+<area shape="rect" id="node13" href="$classedaContinue.html" title="Lớp trừu tượng edaContinue mô tả các thông tin về điều kiện dừng trong thư viện. " alt="" coords="184,245,291,275"/>
+<area shape="rect" id="node23" href="$classedaCoolingSchedule.html" title="Lớp trừu tượng edaCoolingSchedule mô tả các thông tin về chiến lược làm lạnh nhiệt độ..." alt="" coords="160,379,315,408"/>
+<area shape="rect" id="node29" href="$classedaCrossover.html" title="Lớp trừu tượng edaCrossover mô tả các thông tin về chiến lược lai chéo giữa các nhiệm sắc thể..." alt="" coords="180,485,295,515"/>
+<area shape="rect" id="node37" href="$classedaGenne.html" title="Lớp edaGenne là hiện thực đối tượng gen trong giải thuật tiến hóa. " alt="" coords="192,539,283,568"/>
+<area shape="rect" id="node39" href="$classedaMove.html" title="Lớp trừu tượng edaMove mô tả các thông tin về chiến lược duy chuyển trong không gian tìm kiếm của các..." alt="" coords="196,592,279,621"/>
+<area shape="rect" id="node41" href="$classedaMoveExpl.html" title="Lớp trừu tượng edaMoveExpl hiện thực chiến lược khai phá không gian ứng với từng giải thuật..." alt="" coords="181,645,293,675"/>
+<area shape="rect" id="node47" href="$classedaMoveGen.html" title="Lớp trừu tượng edaMoveGen mô tả các thông tin về thức tạo các bước chuyển trong không gian tìm kiếm c..." alt="" coords="183,699,292,728"/>
+<area shape="rect" id="node49" href="$classedaMoveSelect.html" title="Lớp trừu tượng edaMoveSelect thực hiện việc chọn lựa các bước chuyển theo chiến lược tương ứng..." alt="" coords="173,752,301,781"/>
+<area shape="rect" id="node55" href="$classedaMutation.html" title="Lớp trừ tượng edaMutation hiện thực các chiến lược đột biến. " alt="" coords="184,805,291,835"/>
+<area shape="rect" id="node61" href="$classedaNaturalSelection.html" title="Lớp trừ tượng edaNaturalSelection hiện thực các chiến lược chọn lọc tự nhiên. " alt="" coords="159,859,316,888"/>
+<area shape="rect" id="node67" href="$classedaPopulation.html" title="Lớp edaPopulation hiện thực đối tượng quần thể trong giải thuật tiến hóa. " alt="" coords="179,912,296,941"/>
+<area shape="rect" id="node69" href="$classedaProblem.html" title="Lớp trừu tượng edaProblem chứa thông tin bài toán cho từng vấn đề tối ưu cụ thể. " alt="" coords="187,965,288,995"/>
+<area shape="rect" id="node71" href="$classedaRepresentation.html" title="Lớp trừu tượng edaRepresentation hiện thực việc chứa phương pháp mã hóa từ lời giải thành nhiệm sắc t..." alt="" coords="161,1019,313,1048"/>
+<area shape="rect" id="node73" href="$classedaSearch.html" title="Lớp trừu tượng edaSearch thực hiện việc tối ưu với các chiến lược hổ trợ trong thư viện hoặc do người..." alt="" coords="191,1072,284,1101"/>
+<area shape="rect" id="node87" href="$classedaSolution.html" title="Lớp trừu tượng edaSolution hiện thực lời giải của bài toán. " alt="" coords="188,1125,287,1155"/>
+<area shape="rect" id="node89" href="$classedaSolutionList.html" title="Lớp trừu tượng edaSolutionList hiện thực danh sách lời giải của bài toán. " alt="" coords="175,1179,300,1208"/>
+<area shape="rect" id="node91" href="$classedaTabuList.html" title="Lớp trừu tượng edaTabuList hiện thực danh sách Tabu theo các đối tượng khác nhau. ..." alt="" coords="187,1339,288,1368"/>
+<area shape="rect" id="node7" href="$classedaImprBestFitAspirCrit.html" title="Lớp edaImprBestFitAspirCrit thực hiện việc lấy bước chuyển ứng viên có hàm lượng giá tốt nhất..." alt="" coords="387,5,571,35"/>
+<area shape="rect" id="node9" href="$classedaNoAspirCrit.html" title="Lớp edaImprBestFitAspirCrit không thực hiện việc thay đổi danh sách Tabu. " alt="" coords="417,59,540,88"/>
+<area shape="rect" id="node15" href="$classedaFitContinue.html" title="Lớp edaFitContinue hiện thực điều kiện dừng theo hàm lượng giá. " alt="" coords="416,112,541,141"/>
+<area shape="rect" id="node17" href="$classedaGenContinue.html" title="Lớp edaGenContinue hiện thực điều kiện dừng theo theo số lần lặp. " alt="" coords="412,165,545,195"/>
+<area shape="rect" id="node19" href="$classedaTimeContinue.html" title="Lớp edaTimeContinue hiện thực điều kiện dừng theo theo thời gian chạy. " alt="" coords="408,219,549,248"/>
+<area shape="rect" id="node21" href="$classedaVarFitContinue.html" title="Lớp edaVarFitContinue hiện thực điều kiện dừng theo theo hàm lượng giá có khả năng thay đổi..." alt="" coords="405,272,552,301"/>
+<area shape="rect" id="node25" href="$classedaExpCoolingSchedule.html" title="Lớp edaExpCoolingSchedule là hiện thực của chiến lược làm lạnh nhiệt độ theo hàm mũ. " alt="" coords="388,325,569,355"/>
+<area shape="rect" id="node27" href="$classedaLinearCoolingSchedule.html" title="Lớp edaExpCoolingSchedule là hiện thực của chiến lược làm lạnh nhiệt độ theo hàm tuyến tính..." alt="" coords="380,379,577,408"/>
+<area shape="rect" id="node31" href="$classedaLambdaPointCrossover.html" title="Lớp edaLambdaPointCrossover hiện thực chiến lược lai chéo giữa các nhiệm sắc thể với số diểm lai chéo..." alt="" coords="377,432,580,461"/>
+<area shape="rect" id="node33" href="$classedaOnePointCrossover.html" title="Lớp edaOnePointCrossover hiện thực chiến lược lai chéo giữa các nhiệm sắc thể với một diểm lai chéo v..." alt="" coords="391,485,567,515"/>
+<area shape="rect" id="node35" href="$classedaPartiallyMatchedCrossover.html" title="Lớp edaPartiallyMatchedCrossover hiện thực chiến lược lai chéo PMX giữa các nhiệm sắc thể..." alt="" coords="365,539,592,568"/>
+<area shape="rect" id="node43" href="$classedaHCMoveExpl.html" title="Lớp edaHCMoveExpl hiện thực chiến lược khai phá không gian ứng với giải thuật HC. ..." alt="" coords="413,592,544,621"/>
+<area shape="rect" id="node45" href="$classedaTSMoveExpl.html" title="Lớp edaTSMoveExpl hiện thực chiến lược khai phá không gian ứng với giải thuật TS. ..." alt="" coords="415,645,543,675"/>
+<area shape="rect" id="node51" href="$classedaBestImprSelect.html" title="Lớp edaBestImprSelect thực hiện việc chọn lựa các bước chuyển theo chiến lược Global Best..." alt="" coords="401,699,556,728"/>
+<area shape="rect" id="node53" href="$classedaFirstImprSelect.html" title="Lớp edaBestImprSelect thực hiện việc chọn lựa các bước chuyển theo chiến lược First Best..." alt="" coords="404,752,553,781"/>
+<area shape="rect" id="node57" href="$classedaRandomMutation.html" title="Lớp edaRandomMutation hiện thực chiến lược đột biến phát sinh ngẫu nhiên. " alt="" coords="397,805,560,835"/>
+<area shape="rect" id="node59" href="$classedaRandSwapMutation.html" title="Lớp edaRandSwapMutation hiện thực chiến lược đột biến hoán đổi gen. " alt="" coords="391,859,567,888"/>
+<area shape="rect" id="node63" href="$classedaRankSelection.html" title="Lớp edaRankSelection hiện thực chiến lược chọn lọc tự nhiên theo thứ hạng. " alt="" coords="408,912,549,941"/>
+<area shape="rect" id="node65" href="$classedaRouletteWheelSelection.html" title="Lớp edaRouletteWheelSelection hiện thực chiến lược chọn lọc tự nhiên theo trọng số ..." alt="" coords="373,965,584,995"/>
+<area shape="rect" id="node75" href="$classedaGA.html" title="Lớp edaGA thực hiện việc tối ưu theo giải thuật di truyền. " alt="" coords="445,1019,512,1048"/>
+<area shape="rect" id="node77" href="$classedaHC.html" title="Lớp edaHC thực hiện việc tối ưu theo giải thuật leo đồi. " alt="" coords="445,1072,512,1101"/>
+<area shape="rect" id="node79" href="$classedaMA.html" title="Lớp edaMA thực hiện việc tối ưu theo giải thuật Memetic. " alt="" coords="445,1125,512,1155"/>
+<area shape="rect" id="node81" href="$classedaNS.html" title="Lớp edaNS là một chiến lược tối ưu rỗng (không thực hiện quá trình tối ưu). " alt="" coords="447,1179,511,1208"/>
+<area shape="rect" id="node83" href="$classedaSA.html" title="Lớp edaSA thực hiện việc tối ưu theo giải thuật mô phỏng luyện kim. " alt="" coords="447,1232,511,1261"/>
+<area shape="rect" id="node85" href="$classedaTS.html" title="Lớp trừu tượng edaTS thực hiện việc tối ưu theo giải thuật tìm kiếm Tabu. " alt="" coords="448,1285,509,1315"/>
+<area shape="rect" id="node93" href="$classedaSimpleMoveTabuList.html" title="Lớp trừu tượng edaTabuList hiện thực danh sách Tabu theo lớp edaSolution. " alt="" coords="388,1339,569,1368"/>
+<area shape="rect" id="node95" href="$classedaSimpleSolutionTabuList.html" title="Lớp trừu tượng edaTabuList hiện thực danh sách Tabu theo lớp edaMove. " alt="" coords="380,1392,577,1421"/>
+</map>

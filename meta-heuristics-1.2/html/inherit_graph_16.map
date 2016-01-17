@@ -1,0 +1,5 @@
+<map id="Kiến trúc đồ họa của Class" name="Kiến trúc đồ họa của Class">
+<area shape="rect" id="node1" href="$classedaWrapperControl.html" title="Lớp trừu tượng edaWrapperControl điều khiển quá trình tối ưu. " alt="" coords="7,32,156,61"/>
+<area shape="rect" id="node3" href="$classedaMpiWrapperControl.html" title="Lớp edaMpiWrapperControl điều khiển quá trình tối ưu bằng cơ chế MPI. " alt="" coords="207,5,380,35"/>
+<area shape="rect" id="node5" href="$classedaSeqWrapperControl.html" title="Lớp trừu tượng edaWrapperControl điều khiển quá trình tối ưu tuần tự " alt="" coords="205,59,381,88"/>
+</map>

@@ -1,0 +1,103 @@
+#include "vrpSubRouteMove.h"
+#include "vrpSolution.h"
+
+vrpSubRouteMove::vrpSubRouteMove()
+	:edaMove() {}
+
+vrpSubRouteMove::vrpSubRouteMove(const vrpSubRouteMove &move):
+	edaMove(move) {
+	NUM_OPT_1 = move.NUM_OPT_1;
+	NUM_OPT_2 = move.NUM_OPT_2;
+	POS_OPT_1 = move.POS_OPT_1;
+	POS_OPT_2 = move.POS_OPT_2;
+	INC_DIST = move.INC_DIST;
+	INC_WAIT_TIME = move.INC_WAIT_TIME;
+	INC_MOVE_TIME = move.INC_MOVE_TIME;
+}
+
+vrpSubRouteMove::~vrpSubRouteMove() {}
+
+edaMove* vrpSubRouteMove::clone() const {
+	return new vrpSubRouteMove(*this);
+}
+
+void vrpSubRouteMove::init(const edaSolution &sol) {
+	POS_OPT_1 = 1;
+	POS_OPT_2 = 0;
+	NUM_OPT_1 = 0;
+	NUM_OPT_2 = 1;
+	INC_DIST = 0.0;
+	INC_WAIT_TIME = 0.0;
+	INC_MOVE_TIME = 0.0;
+};
+	
+double vrpSubRouteMove::incrEval(const edaSolution &sol) const {    
+    vrpSubRoute& sub = (vrpSubRoute&)sol;  
+    double result = sub.evaluate();
+    if(POS_OPT_2 == 0) return result;
+    vrpConst C = *sub.getParameter();    
+    result -= C.THETA_1*INC_DIST + C.THETA_2*INC_MOVE_TIME + C.THETA_3*INC_WAIT_TIME;
+    return result;
+}
+
+void vrpSubRouteMove::update(edaSolution &sol) const
+{
+    if(POS_OPT_2 == 0) return;    
+    vrpSubRoute & vrpSol = (vrpSubRoute&) sol;
+    vector<unsigned int> list_2 = vrpSol.removeStop(POS_OPT_2,NUM_OPT_2);
+    vector<unsigned int> list_1 = vrpSol.removeStop(POS_OPT_1,NUM_OPT_1);
+    vrpSol.insertStop(list_2, POS_OPT_1);
+    vrpSol.insertStop(list_1, POS_OPT_2 + NUM_OPT_2 - NUM_OPT_1);
+    vrpSol.update();
+}
+
+void vrpSubRouteMove::Serialize( edaBuffer &buf, bool pack )
+{
+    if(pack){
+        buf.Pack( &NUM_OPT_1, 1 );
+        buf.Pack( &NUM_OPT_2, 1 );
+        buf.Pack( &POS_OPT_1, 1 );
+        buf.Pack( &POS_OPT_2, 1 );
+        buf.Pack( &INC_DIST, 1 );
+        buf.Pack( &INC_WAIT_TIME, 1 );
+        buf.Pack( &INC_MOVE_TIME, 1 );
+    } 
+    else{
+        buf.UnPack( &NUM_OPT_1, 1 );
+        buf.UnPack( &NUM_OPT_2, 1 );
+        buf.UnPack( &POS_OPT_1, 1 );
+        buf.UnPack( &POS_OPT_2, 1 );
+        buf.UnPack( &INC_DIST, 1 );
+        buf.UnPack( &INC_WAIT_TIME, 1 );
+        buf.UnPack( &INC_MOVE_TIME, 1 );
+    }
+}
+
+edaMove& vrpSubRouteMove::operator = (const edaMove &_move) {
+    this->POS_OPT_1 = ((vrpSubRouteMove&)_move).POS_OPT_1;
+    this->POS_OPT_2 = ((vrpSubRouteMove&)_move).POS_OPT_2;
+    this->NUM_OPT_1 = ((vrpSubRouteMove&)_move).NUM_OPT_1;
+    this->NUM_OPT_2 = ((vrpSubRouteMove&)_move).NUM_OPT_2; 
+    this->INC_DIST = ((vrpSubRouteMove&)_move).INC_DIST;
+    this->INC_MOVE_TIME = ((vrpSubRouteMove&)_move).INC_MOVE_TIME;
+    this->INC_WAIT_TIME = ((vrpSubRouteMove&)_move).INC_WAIT_TIME;
+    return (*this);
+}
+
+bool vrpSubRouteMove::operator == (const edaMove &_move) const {
+    return this->POS_OPT_1 == ((vrpSubRouteMove&)_move).POS_OPT_1
+	    && this->POS_OPT_2 == ((vrpSubRouteMove&)_move).POS_OPT_2
+	    && this->NUM_OPT_1 == ((vrpSubRouteMove&)_move).NUM_OPT_1
+	    && this->NUM_OPT_2 == ((vrpSubRouteMove&)_move).NUM_OPT_2;
+}
+
+void vrpSubRouteMove::printOn(ostream& os) const {
+    os << "Position [" << POS_OPT_1 << ","
+       << POS_OPT_2 << "], Operation [" << NUM_OPT_1
+       << "," << NUM_OPT_2 <<"]";
+} 
+
+
+
+
+	

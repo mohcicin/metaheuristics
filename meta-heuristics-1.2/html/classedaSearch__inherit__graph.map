@@ -1,0 +1,9 @@
+<map id="edaSearch" name="edaSearch">
+<area shape="rect" id="node5" href="$classedaGA.html" title="Lớp edaGA thực hiện việc tối ưu theo giải thuật di truyền. " alt="" coords="5,160,72,189"/>
+<area shape="rect" id="node7" href="$classedaHC.html" title="Lớp edaHC thực hiện việc tối ưu theo giải thuật leo đồi. " alt="" coords="96,160,163,189"/>
+<area shape="rect" id="node9" href="$classedaMA.html" title="Lớp edaMA thực hiện việc tối ưu theo giải thuật Memetic. " alt="" coords="187,160,253,189"/>
+<area shape="rect" id="node11" href="$classedaNS.html" title="Lớp edaNS là một chiến lược tối ưu rỗng (không thực hiện quá trình tối ưu). " alt="" coords="277,160,341,189"/>
+<area shape="rect" id="node13" href="$classedaSA.html" title="Lớp edaSA thực hiện việc tối ưu theo giải thuật mô phỏng luyện kim. " alt="" coords="365,160,429,189"/>
+<area shape="rect" id="node15" href="$classedaTS.html" title="Lớp trừu tượng edaTS thực hiện việc tối ưu theo giải thuật tìm kiếm Tabu. " alt="" coords="453,160,515,189"/>
+<area shape="rect" id="node2" href="$classedaSerialize.html" title="Lớp edaSerialize hiện thực cơ chế gói và giải gói cho các đối tượng phức tạp. " alt="" coords="213,5,315,35"/>
+</map>

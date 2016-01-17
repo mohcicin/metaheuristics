@@ -1,0 +1,5 @@
+<map id="edaAspirCrit" name="edaAspirCrit">
+<area shape="rect" id="node5" href="$classedaImprBestFitAspirCrit.html" title="Lớp edaImprBestFitAspirCrit thực hiện việc lấy bước chuyển ứng viên có hàm lượng giá tốt nhất..." alt="" coords="5,160,189,189"/>
+<area shape="rect" id="node7" href="$classedaNoAspirCrit.html" title="Lớp edaImprBestFitAspirCrit không thực hiện việc thay đổi danh sách Tabu. " alt="" coords="213,160,336,189"/>
+<area shape="rect" id="node2" href="$classedaSerialize.html" title="Lớp edaSerialize hiện thực cơ chế gói và giải gói cho các đối tượng phức tạp. " alt="" coords="135,5,236,35"/>
+</map>

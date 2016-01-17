@@ -1,0 +1,4 @@
+<map id="edaWrapperControl" name="edaWrapperControl">
+<area shape="rect" id="node3" href="$classedaMpiWrapperControl.html" title="Lớp edaMpiWrapperControl điều khiển quá trình tối ưu bằng cơ chế MPI. " alt="" coords="5,83,179,112"/>
+<area shape="rect" id="node5" href="$classedaSeqWrapperControl.html" title="Lớp trừu tượng edaWrapperControl điều khiển quá trình tối ưu tuần tự " alt="" coords="203,83,379,112"/>
+</map>

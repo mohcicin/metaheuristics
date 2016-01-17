@@ -1,0 +1,4 @@
+<map id="edaLinearCoolingSchedule" name="edaLinearCoolingSchedule">
+<area shape="rect" id="node2" href="$classedaCoolingSchedule.html" title="Lớp trừu tượng edaCoolingSchedule mô tả các thông tin về chiến lược làm lạnh nhiệt độ..." alt="" coords="27,83,181,112"/>
+<area shape="rect" id="node4" href="$classedaSerialize.html" title="Lớp edaSerialize hiện thực cơ chế gói và giải gói cho các đối tượng phức tạp. " alt="" coords="53,5,155,35"/>
+</map>

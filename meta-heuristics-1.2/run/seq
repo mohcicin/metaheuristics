@@ -1,0 +1,288 @@
+./tspHCTwoOptSearch berlin52.tsp
+mv tspHCTwoOptSearch.csv ./TSPHC1/berlin52.csv
+./tspHCOrOptSearch berlin52.tsp
+mv tspHCOrOptSearch.csv ./TSPHC2/berlin52.csv
+./tspSASearch berlin52.tsp
+mv tspSASearch.csv ./TSPSA/berlin52.csv
+./tspTSSearch berlin52.tsp
+mv tspTSSearch.csv ./TSPTS/berlin52.csv
+./tspGASearch berlin52.tsp
+mv tspGASearch.csv ./TSPGA/berlin52.csv
+./tspMASearch berlin52.tsp
+mv tspMASearch.csv ./TSPMA/berlin52.csv
+./tspVariableSearch berlin52.tsp
+mv tspVariableSearch.csv ./TSPVNS/berlin52.csv
+./tspSEQSearch01 berlin52.tsp
+mv tspSEQSearch01.csv ./TSPSEQ01/berlin52.csv
+./tspSEQSearch02 berlin52.tsp
+mv tspSEQSearch02.csv ./TSPSEQ02/berlin52.csv
+./tspSEQSearch03 berlin52.tsp
+mv tspSEQSearch03.csv ./TSPSEQ03/berlin52.csv
+./tspSEQSearch04 berlin52.tsp
+mv tspSEQSearch04.csv ./TSPSEQ04/berlin52.csv
+
+./tspHCTwoOptSearch eil101.tsp
+mv tspHCTwoOptSearch.csv ./TSPHC1/eil101.csv
+./tspHCOrOptSearch eil101.tsp
+mv tspHCOrOptSearch.csv ./TSPHC2/eil101.csv
+./tspSASearch eil101.tsp
+mv tspSASearch.csv ./TSPSA/eil101.csv
+./tspTSSearch eil101.tsp
+mv tspTSSearch.csv ./TSPTS/eil101.csv
+./tspGASearch eil101.tsp
+mv tspGASearch.csv ./TSPGA/eil101.csv
+./tspMASearch eil101.tsp
+mv tspMASearch.csv ./TSPMA/eil101.csv
+./tspVariableSearch eil101.tsp
+mv tspVariableSearch.csv ./TSPVNS/eil101.csv
+./tspSEQSearch01 eil101.tsp
+mv tspSEQSearch01.csv ./TSPSEQ01/eil101.csv
+./tspSEQSearch02 eil101.tsp
+mv tspSEQSearch02.csv ./TSPSEQ02/eil101.csv
+./tspSEQSearch03 eil101.tsp
+mv tspSEQSearch03.csv ./TSPSEQ03/eil101.csv
+./tspSEQSearch04 eil101.tsp
+mv tspSEQSearch04.csv ./TSPSEQ04/eil101.csv
+
+./tspHCTwoOptSearch ali535.tsp
+mv tspHCTwoOptSearch.csv ./TSPHC1/ali535.csv
+./tspHCOrOptSearch ali535.tsp
+mv tspHCOrOptSearch.csv ./TSPHC2/ali535.csv
+./tspSASearch ali535.tsp
+mv tspSASearch.csv ./TSPSA/ali535.csv
+./tspTSSearch ali535.tsp
+mv tspTSSearch.csv ./TSPTS/ali535.csv
+./tspGASearch ali535.tsp
+mv tspGASearch.csv ./TSPGA/ali535.csv
+./tspMASearch ali535.tsp
+mv tspMASearch.csv ./TSPMA/ali535.csv
+./tspVariableSearch ali535.tsp
+mv tspVariableSearch.csv ./TSPVNS/ali535.csv
+./tspSEQSearch01 ali535.tsp
+mv tspSEQSearch01.csv ./TSPSEQ01/ali535.csv
+./tspSEQSearch02 ali535.tsp
+mv tspSEQSearch02.csv ./TSPSEQ02/ali535.csv
+./tspSEQSearch03 ali535.tsp
+mv tspSEQSearch03.csv ./TSPSEQ03/ali535.csv
+./tspSEQSearch04 ali535.tsp
+mv tspSEQSearch04.csv ./TSPSEQ04/ali535.csv
+
+./vrpHCInterchangeSearch 102_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/102_stop.csv
+./vrpSASearch 102_stop.con
+mv vrpSASearch.csv ./VRPSA/102_stop.csv
+./vrpTSSearch 102_stop.con
+mv vrpTSSearch.csv ./VRPTS/102_stop.csv
+./vrpGASearch 102_stop.con
+mv vrpGASearch.csv ./VRPGA/102_stop.csv
+./vrpMASearch 102_stop.con
+mv vrpMASearch.csv ./VRPMA/102_stop.csv
+./vrpVariableSearch 102_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/102_stop.csv
+./vrpSEQSearch 102_stop.con
+
+./vrpHCInterchangeSearch 277_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/277_stop.csv
+./vrpSASearch 277_stop.con
+mv vrpSASearch.csv ./VRPSA/277_stop.csv
+./vrpTSSearch 277_stop.con
+mv vrpTSSearch.csv ./VRPTS/277_stop.csv
+./vrpGASearch 277_stop.con
+mv vrpGASearch.csv ./VRPGA/277_stop.csv
+./vrpMASearch 277_stop.con
+mv vrpMASearch.csv ./VRPMA/277_stop.csv
+./vrpVariableSearch 277_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/277_stop.csv
+mv vrpSEQSearch.csv ./VRPSEQ/102_stop.csv
+./vrpSEQSearch 277_stop.con
+mv vrpSEQSearch.csv ./VRPSEQ/277_stop.csv
+
+./vrpHCInterchangeSearch 335_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/335_stop.csv
+./vrpSASearch 335_stop.con
+mv vrpSASearch.csv ./VRPSA/335_stop.csv
+./vrpTSSearch 335_stop.con
+mv vrpTSSearch.csv ./VRPTS/335_stop.csv
+./vrpGASearch 335_stop.con
+mv vrpGASearch.csv ./VRPGA/335_stop.csv
+./vrpMASearch 335_stop.con
+mv vrpMASearch.csv ./VRPMA/335_stop.csv
+./vrpVariableSearch 335_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/335_stop.csv
+./vrpSEQSearch 335_stop.con
+mv vrpSEQSearch.csv ./VRPSEQ/335_stop.csv
+
+./vrpHCInterchangeSearch 444_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/444_stop.
+./vrpSASearch 444_stop.con
+mv vrpSASearch.csv ./VRPSA/444_stop.csv
+./vrpTSSearch 444_stop.con
+mv vrpTSSearch.csv ./VRPTS/444_stop.csv
+./vrpGASearch 444_stop.con
+mv vrpGASearch.csv ./VRPGA/444_stop.csv
+./vrpMASearch 444_stop.con
+mv vrpMASearch.csv ./VRPMA/444_stop.csv
+./vrpVariableSearch 444_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/444_stop.csv
+./vrpSEQSearch 444_stop.con
+mv vrpSEQSearch.csv ./VRPSEQ/444_stop.csv
+
+./vrpHCInterchangeSearch 804_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/804_stop.csv
+./vrpSASearch 804_stop.con
+mv vrpSASearch.csv ./VRPSA/804_stop.csv
+./vrpTSSearch 804_stop.con
+mv vrpTSSearch.csv ./VRPTS/804_stop.csv
+./vrpGASearch 804_stop.con
+mv vrpGASearch.csv ./VRPGA/804_stop.csv
+./vrpMASearch 804_stop.con
+mv vrpMASearch.csv ./VRPMA/804_stop.csv
+./vrpVariableSearch 804_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/804_stop.csv
+./vrpSEQSearch 804_stop.con
+mv vrpSEQSearch.csv ./VRPSEQ/804_stop.csv
+
+./tspHCTwoOptSearch pr2392.tsp
+mv tspHCTwoOptSearch.csv ./TSPHC1/pr2392.csv
+./tspHCOrOptSearch pr2392.tsp
+mv tspHCOrOptSearch.csv ./TSPHC2/pr2392.csv
+./tspSASearch pr2392.tsp
+mv tspSASearch.csv ./TSPSA/pr2392.csv
+./tspTSSearch pr2392.tsp
+mv tspTSSearch.csv ./TSPTS/pr2392.csv
+./tspGASearch pr2392.tsp
+mv tspGASearch.csv ./TSPGA/pr2392.csv
+./tspMASearch pr2392.tsp
+mv tspMASearch.csv ./TSPMA/pr2392.csv
+./tspVariableSearch pr2392.tsp
+mv tspVariableSearch.csv ./TSPVNS/pr2392.csv
+./tspSEQSearch01 pr2392.tsp
+mv tspSEQSearch01.csv ./TSPSEQ01/pr2392.csv
+./tspSEQSearch02 pr2392.tsp
+mv tspSEQSearch02.csv ./TSPSEQ02/pr2392.csv
+./tspSEQSearch03 pr2392.tsp
+mv tspSEQSearch03.csv ./TSPSEQ03/pr2392.csv
+./tspSEQSearch04 pr2392.tsp
+mv tspSEQSearch04.csv ./TSPSEQ04/pr2392.csv
+
+./vrpHCInterchangeSearch 1051_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/1051_stop.csv
+./vrpSASearch 1051_stop.con
+mv vrpSASearch.csv ./VRPSA/1051_stop.csv
+./vrpTSSearch 1051_stop.con
+mv vrpTSSearch.csv ./VRPTS/1051_stop.csv
+./vrpGASearch 1051_stop.con
+mv vrpGASearch.csv ./VRPGA/1051_stop.csv
+./vrpMASearch 1051_stop.con
+mv vrpMASearch.csv ./VRPMA/1051_stop.csv
+./vrpVariableSearch 1051_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/1051_stop.csv
+./vrpSEQSearch 1051_stop.con
+mv vrpSEQSearch.csv ./VRPSEQ/1051_stop.csv
+
+./vrpHCInterchangeSearch 1351_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/1351_stop.csv
+./vrpSASearch 1351_stop.con
+mv vrpSASearch.csv ./VRPSA/1351_stop.csv
+./vrpTSSearch 1351_stop.con
+mv vrpTSSearch.csv ./VRPTS/1351_stop.csv
+./vrpGASearch 1351_stop.con
+mv vrpGASearch.csv ./VRPGA/1351_stop.csv
+./vrpMASearch 1351_stop.con
+mv vrpMASearch.csv ./VRPMA/1351_stop.csv
+./vrpVariableSearch 1351_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/1351_stop.csv
+./vrpSEQSearch 1351_stop.con
+mv vrpSEQSearch.csv ./VRPSEQ/1351_stop.csv
+
+./vrpHCInterchangeSearch 1599_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/1599_stop.csv
+./vrpSASearch 1599_stop.con
+mv vrpSASearch.csv ./VRPSA/1599_stop.csv
+./vrpTSSearch 1599_stop.con
+mv vrpTSSearch.csv ./VRPTS/1599_stop.csv
+./vrpGASearch 1599_stop.con
+mv vrpGASearch.csv ./VRPGA/1599_stop.csv
+./vrpMASearch 1599_stop.con
+mv vrpMASearch.csv ./VRPMA/1599_stop.csv
+./vrpVariableSearch 1599_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/1599_stop.csv
+./vrpSEQSearch 1599_stop.con
+mv vrpSEQSearch.csv ./VRPSEQ/1599_stop.csv
+
+./tspHCTwoOptSearch rl5915.tsp
+mv tspHCTwoOptSearch.csv ./TSPHC1/rl5915.csv
+./tspHCOrOptSearch rl5915.tsp
+mv tspHCOrOptSearch.csv ./TSPHC2/rl5915.csv
+./tspSASearch rl5915.tsp
+mv tspSASearch.csv ./TSPSA/rl5915.csv
+./tspTSSearch rl5915.tsp
+mv tspTSSearch.csv ./TSPTS/rl5915.csv
+./tspGASearch rl5915.tsp
+mv tspGASearch.csv ./TSPGA/rl5915.csv
+./tspMASearch rl5915.tsp
+mv tspMASearch.csv ./TSPMA/rl5915.csv
+./tspVariableSearch rl5915.tsp
+mv tspVariableSearch.csv ./TSPVNS/rl5915.csv
+./tspSEQSearch01 rl5915.tsp
+mv tspSEQSearch01.csv ./TSPSEQ01/rl5915.csv
+./tspSEQSearch02 rl5915.tsp
+mv tspSEQSearch02.csv ./TSPSEQ02/rl5915.csv
+./tspSEQSearch03 rl5915.tsp
+mv tspSEQSearch03.csv ./TSPSEQ03/rl5915.csv
+./tspSEQSearch04 rl5915.tsp
+mv tspSEQSearch04.csv ./TSPSEQ04/rl5915.csv
+
+./vrpHCInterchangeSearch 1932_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/1932_stop.csv
+./vrpSASearch 1932_stop.con
+mv vrpSASearch.csv ./VRPSA/1932_stop.csv
+./vrpTSSearch 1932_stop.con
+mv vrpTSSearch.csv ./VRPTS/1932_stop.csv
+./vrpGASearch 1932_stop.con
+mv vrpGASearch.csv ./VRPGA/1932_stop.csv
+./vrpMASearch 1932_stop.con
+mv vrpMASearch.csv ./VRPMA/1932_stop.csv
+./vrpVariableSearch 1932_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/1932_stop.csv
+./vrpSEQSearch 1932_stop.con
+mv vrpSEQSearch.csv ./VRPSEQ/1932_stop.csv
+
+./vrpHCInterchangeSearch 2100_stop.con
+mv vrpHCInterchangeSearch.csv ./VRPHC/2100_stop.csv
+./vrpSASearch 2100_stop.con
+mv vrpSASearch.csv ./VRPSA/2100_stop.csv
+./vrpTSSearch 2100_stop.con
+mv vrpTSSearch.csv ./VRPTS/2100_stop.csv
+./vrpGASearch 2100_stop.con
+mv vrpGASearch.csv ./VRPGA/2100_stop.csv
+./vrpMASearch 2100_stop.con
+mv vrpMASearch.csv ./VRPMA/2100_stop.csv
+./vrpVariableSearch 2100_stop.con
+mv vrpVariableSearch.csv ./VRPVNS/2100_stop.csv
+./vrpSEQSearch 2100_stop.con
+mv vrpSEQSearch.csv ./VRPSEQ/2100_stop.csv
+
+
+./tspHCTwoOptSearch usa13509.tsp
+mv tspHCTwoOptSearch.csv ./TSPHC1/usa13509.csv
+./tspHCOrOptSearch usa13509.tsp
+mv tspHCOrOptSearch.csv ./TSPHC2/usa13509.csv
+./tspSASearch usa13509.tsp
+mv tspSASearch.csv ./TSPSA/usa13509.csv
+./tspTSSearch usa13509.tsp
+mv tspTSSearch.csv ./TSPTS/usa13509.csv
+./tspGASearch usa13509.tsp
+mv tspGASearch.csv ./TSPGA/usa13509.csv
+./tspMASearch usa13509.tsp
+mv tspMASearch.csv ./TSPMA/usa13509.csv
+./tspVariableSearch usa13509.tsp
+mv tspVariableSearch.csv ./TSPVNS/usa13509.csv
+./tspSEQSearch01 usa13509.tsp
+mv tspSEQSearch01.csv ./TSPSEQ01/usa13509.csv
+./tspSEQSearch02 usa13509.tsp
+mv tspSEQSearch02.csv ./TSPSEQ02/usa13509.csv
+./tspSEQSearch03 usa13509.tsp
+mv tspSEQSearch03.csv ./TSPSEQ03/usa13509.csv
+./tspSEQSearch04 usa13509.tsp
+mv tspSEQSearch04.csv ./TSPSEQ04/usa13509.csv

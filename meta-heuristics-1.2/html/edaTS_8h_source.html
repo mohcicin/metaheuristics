@@ -1,0 +1,145 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=9"/>
+<meta name="generator" content="Doxygen 1.8.4"/>
+<title>meta-heuristics-1.2: lib/edaTS.h File nguồn</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/search.js"></script>
+<script type="text/javascript">
+  $(document).ready(function() { searchBox.OnSelectItem(0); });
+</script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr style="height: 56px;">
+  <td style="padding-left: 0.5em;">
+   <div id="projectname">meta-heuristics-1.2
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Được biên soạn bởi Doxygen 1.8.4 -->
+<script type="text/javascript">
+var searchBox = new SearchBox("searchBox", "search",false,'Tìm kiếm');
+</script>
+  <div id="navrow1" class="tabs">
+    <ul class="tablist">
+      <li><a href="index.html"><span>Tranh&#160;chính</span></a></li>
+      <li><a href="annotated.html"><span>Cấu&#160;trúc&#160;dữ&#160;liệu</span></a></li>
+      <li class="current"><a href="files.html"><span>Files</span></a></li>
+      <li>
+        <div id="MSearchBox" class="MSearchBoxInactive">
+        <span class="left">
+          <img id="MSearchSelect" src="search/mag_sel.png"
+               onmouseover="return searchBox.OnSearchSelectShow()"
+               onmouseout="return searchBox.OnSearchSelectHide()"
+               alt=""/>
+          <input type="text" id="MSearchField" value="Tìm kiếm" accesskey="S"
+               onfocus="searchBox.OnSearchFieldFocus(true)" 
+               onblur="searchBox.OnSearchFieldFocus(false)" 
+               onkeyup="searchBox.OnSearchFieldChange(event)"/>
+          </span><span class="right">
+            <a id="MSearchClose" href="javascript:searchBox.CloseResultsWindow()"><img id="MSearchCloseImg" border="0" src="search/close.png" alt=""/></a>
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+  <div id="navrow2" class="tabs2">
+    <ul class="tablist">
+      <li><a href="files.html"><span>Danh&#160;mục&#160;File</span></a></li>
+    </ul>
+  </div>
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+<a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(0)"><span class="SelectionMark">&#160;</span>Tất cả</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(1)"><span class="SelectionMark">&#160;</span>Cấu trúc dữ liệu</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(2)"><span class="SelectionMark">&#160;</span>Các hàm</a><a class="SelectItem" href="javascript:void(0)" onclick="searchBox.OnSelectItem(3)"><span class="SelectionMark">&#160;</span>Enumerations</a></div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<iframe src="javascript:void(0)" frameborder="0" 
+        name="MSearchResults" id="MSearchResults">
+</iframe>
+</div>
+
+<div id="nav-path" class="navpath">
+  <ul>
+<li class="navelem"><a class="el" href="dir_97aefd0d527b934f1d99a682da8fe6a9.html">lib</a></li>  </ul>
+</div>
+</div><!-- top -->
+<div class="header">
+  <div class="headertitle">
+<div class="title">edaTS.h</div>  </div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a name="l00001"></a><span class="lineno">    1</span>&#160;<span class="preprocessor">#ifndef __edaTS_h__</span></div>
+<div class="line"><a name="l00002"></a><span class="lineno">    2</span>&#160;<span class="preprocessor"></span><span class="preprocessor">#define __edaTS_h__</span></div>
+<div class="line"><a name="l00003"></a><span class="lineno">    3</span>&#160;<span class="preprocessor"></span></div>
+<div class="line"><a name="l00004"></a><span class="lineno">    4</span>&#160;<span class="preprocessor">#include &quot;edaSearch.h&quot;</span></div>
+<div class="line"><a name="l00005"></a><span class="lineno">    5</span>&#160;<span class="preprocessor">#include &quot;edaMove.h&quot;</span></div>
+<div class="line"><a name="l00006"></a><span class="lineno">    6</span>&#160;<span class="preprocessor">#include &quot;edaMoveGen.h&quot;</span></div>
+<div class="line"><a name="l00007"></a><span class="lineno">    7</span>&#160;<span class="preprocessor">#include &quot;edaContinue.h&quot;</span></div>
+<div class="line"><a name="l00008"></a><span class="lineno">    8</span>&#160;<span class="preprocessor">#include &quot;edaTabuList.h&quot;</span></div>
+<div class="line"><a name="l00009"></a><span class="lineno">    9</span>&#160;<span class="preprocessor">#include &quot;edaAspirCrit.h&quot;</span></div>
+<div class="line"><a name="l00010"></a><span class="lineno">   10</span>&#160;<span class="preprocessor">#include &quot;edaTSMoveExpl.h&quot;</span></div>
+<div class="line"><a name="l00012"></a><span class="lineno"><a class="code" href="classedaTS.html">   12</a></span>&#160;<span class="keyword">class </span><a class="code" href="classedaTS.html" title="Lớp trừu tượng edaTS thực hiện việc tối ưu theo giải thuật tìm kiếm Tabu. ">edaTS</a>: <span class="keyword">public</span> <a class="code" href="classedaSearch.html" title="Lớp trừu tượng edaSearch thực hiện việc tối ưu với các chiến lược hổ trợ trong thư viện hoặc do người...">edaSearch</a></div>
+<div class="line"><a name="l00013"></a><span class="lineno">   13</span>&#160;{</div>
+<div class="line"><a name="l00014"></a><span class="lineno">   14</span>&#160; <span class="keyword">public</span>:</div>
+<div class="line"><a name="l00016"></a><span class="lineno">   16</span>&#160;  <a class="code" href="classedaTS.html#a0cf553b2c656fcdfac3adf3687598ff3" title="Khởi tạo đối tượng. ">edaTS</a>();</div>
+<div class="line"><a name="l00019"></a><span class="lineno">   19</span>&#160;  <a class="code" href="classedaTS.html#a0cf553b2c656fcdfac3adf3687598ff3" title="Khởi tạo đối tượng. ">edaTS</a>(<span class="keywordtype">int</span> power);</div>
+<div class="line"><a name="l00027"></a><span class="lineno">   27</span>&#160;  <a class="code" href="classedaTS.html#a0cf553b2c656fcdfac3adf3687598ff3" title="Khởi tạo đối tượng. ">edaTS</a>( <a class="code" href="classedaMove.html" title="Lớp trừu tượng edaMove mô tả các thông tin về chiến lược duy chuyển trong không gian tìm kiếm của các...">edaMove</a> *move,</div>
+<div class="line"><a name="l00028"></a><span class="lineno">   28</span>&#160;         <a class="code" href="classedaMoveGen.html" title="Lớp trừu tượng edaMoveGen mô tả các thông tin về thức tạo các bước chuyển trong không gian tìm kiếm c...">edaMoveGen</a> *moveNext,</div>
+<div class="line"><a name="l00029"></a><span class="lineno">   29</span>&#160;         <a class="code" href="classedaTabuList.html" title="Lớp trừu tượng edaTabuList hiện thực danh sách Tabu theo các đối tượng khác nhau. ...">edaTabuList</a> *tabuList,</div>
+<div class="line"><a name="l00030"></a><span class="lineno">   30</span>&#160;         <a class="code" href="classedaAspirCrit.html" title="Lớp trừu tượng edaAspirCrit thực hiện việc kiểm tra sự hợp lệ của các bước chuyển ứng viên...">edaAspirCrit</a> *aspirCrit,</div>
+<div class="line"><a name="l00031"></a><span class="lineno">   31</span>&#160;         <a class="code" href="classedaContinue.html" title="Lớp trừu tượng edaContinue mô tả các thông tin về điều kiện dừng trong thư viện. ">edaContinue</a> *continueCriteria,</div>
+<div class="line"><a name="l00032"></a><span class="lineno">   32</span>&#160;         <span class="keywordtype">int</span> timeout = 0,</div>
+<div class="line"><a name="l00033"></a><span class="lineno">   33</span>&#160;         <span class="keywordtype">int</span> power = 0);</div>
+<div class="line"><a name="l00040"></a><span class="lineno">   40</span>&#160;  <a class="code" href="classedaTS.html#a0cf553b2c656fcdfac3adf3687598ff3" title="Khởi tạo đối tượng. ">edaTS</a>(<a class="code" href="classedaMove.html" title="Lớp trừu tượng edaMove mô tả các thông tin về chiến lược duy chuyển trong không gian tìm kiếm của các...">edaMove</a> *move,</div>
+<div class="line"><a name="l00041"></a><span class="lineno">   41</span>&#160;        <a class="code" href="classedaTSMoveExpl.html" title="Lớp edaTSMoveExpl hiện thực chiến lược khai phá không gian ứng với giải thuật TS. ...">edaTSMoveExpl</a> *moveExpl,</div>
+<div class="line"><a name="l00042"></a><span class="lineno">   42</span>&#160;        <a class="code" href="classedaContinue.html" title="Lớp trừu tượng edaContinue mô tả các thông tin về điều kiện dừng trong thư viện. ">edaContinue</a> *continueCriteria,</div>
+<div class="line"><a name="l00043"></a><span class="lineno">   43</span>&#160;        <span class="keywordtype">int</span> timeout = 0,</div>
+<div class="line"><a name="l00044"></a><span class="lineno">   44</span>&#160;        <span class="keywordtype">int</span> power = 0);</div>
+<div class="line"><a name="l00045"></a><span class="lineno">   45</span>&#160;  </div>
+<div class="line"><a name="l00048"></a><span class="lineno">   48</span>&#160;  <a class="code" href="classedaTS.html#a0cf553b2c656fcdfac3adf3687598ff3" title="Khởi tạo đối tượng. ">edaTS</a>(<span class="keyword">const</span> <a class="code" href="classedaTS.html" title="Lớp trừu tượng edaTS thực hiện việc tối ưu theo giải thuật tìm kiếm Tabu. ">edaTS</a> &amp;ts);</div>
+<div class="line"><a name="l00049"></a><span class="lineno">   49</span>&#160;  </div>
+<div class="line"><a name="l00050"></a><span class="lineno">   50</span>&#160;  <a class="code" href="classedaTS.html" title="Lớp trừu tượng edaTS thực hiện việc tối ưu theo giải thuật tìm kiếm Tabu. ">edaTS</a>* <a class="code" href="classedaTS.html#a6af2be3da20fa57a0a4763edc37d231e">clone</a>()<span class="keyword">const</span>;</div>
+<div class="line"><a name="l00051"></a><span class="lineno">   51</span>&#160;  </div>
+<div class="line"><a name="l00053"></a><span class="lineno">   53</span>&#160;  <a class="code" href="classedaTS.html#a42bddf75202d39d92deb4af441d0b5f1" title="Hủy đối tượng. ">~edaTS</a>();</div>
+<div class="line"><a name="l00054"></a><span class="lineno">   54</span>&#160;</div>
+<div class="line"><a name="l00055"></a><span class="lineno">   55</span>&#160;  <span class="keywordtype">bool</span> <a class="code" href="classedaTS.html#a8e79adecb37ada4f0265672489a8f8af">search</a>(<a class="code" href="classedaSolutionList.html" title="Lớp trừu tượng edaSolutionList hiện thực danh sách lời giải của bài toán. ">edaSolutionList</a> &amp;list);</div>
+<div class="line"><a name="l00056"></a><span class="lineno">   56</span>&#160;  <span class="keyword">virtual</span> <span class="keywordtype">void</span> <a class="code" href="classedaTS.html#a55967ec89fce31bd752de55ac23d8296">Serialize</a>(<a class="code" href="classedaBuffer.html" title="Lớp edaBuffer thực việc đóng gói (pack) và mở gói (unpack) các loại dữ liệu cơ bản. ">edaBuffer</a> &amp;buf, <span class="keywordtype">bool</span> pack);</div>
+<div class="line"><a name="l00057"></a><span class="lineno">   57</span>&#160;</div>
+<div class="line"><a name="l00058"></a><span class="lineno">   58</span>&#160;  setClassID( _SYSCLASSID_ + _CLSID_EDATS_ );</div>
+<div class="line"><a name="l00059"></a><span class="lineno">   59</span>&#160;</div>
+<div class="line"><a name="l00060"></a><span class="lineno">   60</span>&#160; <span class="keyword">private</span>:</div>
+<div class="line"><a name="l00061"></a><span class="lineno">   61</span>&#160;  <span class="keywordtype">void</span> easer();</div>
+<div class="line"><a name="l00062"></a><span class="lineno">   62</span>&#160;</div>
+<div class="line"><a name="l00063"></a><span class="lineno">   63</span>&#160;  <a class="code" href="classedaMove.html" title="Lớp trừu tượng edaMove mô tả các thông tin về chiến lược duy chuyển trong không gian tìm kiếm của các...">edaMove</a> *move;</div>
+<div class="line"><a name="l00064"></a><span class="lineno">   64</span>&#160;  <a class="code" href="classedaContinue.html" title="Lớp trừu tượng edaContinue mô tả các thông tin về điều kiện dừng trong thư viện. ">edaContinue</a> *con;</div>
+<div class="line"><a name="l00065"></a><span class="lineno">   65</span>&#160;  <a class="code" href="classedaTSMoveExpl.html" title="Lớp edaTSMoveExpl hiện thực chiến lược khai phá không gian ứng với giải thuật TS. ...">edaTSMoveExpl</a> *moveExpl;</div>
+<div class="line"><a name="l00066"></a><span class="lineno">   66</span>&#160;};</div>
+<div class="line"><a name="l00067"></a><span class="lineno">   67</span>&#160;</div>
+<div class="line"><a name="l00068"></a><span class="lineno">   68</span>&#160;<span class="preprocessor">#endif</span></div>
+</div><!-- fragment --></div><!-- contents -->
+<!-- start footer part -->
+<hr class="footer"/><address class="footer"><small>
+Được biên soạn bởi &#160;<a href="http://www.doxygen.org/index.html">
+<img class="footer" src="doxygen.png" alt="doxygen"/>
+</a> 1.8.4
+</small></address>
+</body>
+</html>

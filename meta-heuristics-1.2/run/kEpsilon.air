@@ -1,0 +1,35 @@
+[Model] 
+RASModel = kEpsilon
+Mach Number = [0.73 0.0 0.0]
+Static Pressure = 108987 
+Inlet Temperature = 255
+Turbulent Kinetic Energy = 0.125
+Turbulent Dissipation Rate = 7.32
+Viscosity = 1.983e-05 ; //1.6274e-05 
+Conductivity = 0.0242
+Specific Heat at Constant Volume = 720.43
+Molecular Weight = 28.966
+
+[Control]
+Starting Time = 0.00
+Time Step = 1e-05 
+Writing Time = 1e-02        
+End Time = 1e-01               
+Num Processors = 1       
+
+[Mesh]
+Geometric chord length = 1.0 ; in meter             
+Angle of attack = 2.31 ; in deg    
+Scaling factor = 1.0          
+Half height of channel = 8.0        
+Half depth of foil = 0.5         
+Length of downstream section = 16.0             
+Number of interpolation points along the foil = 200            
+Number of mesh cells along the foil = 125            
+Number of cells in the downstream direction = 75           
+Number of cells the transverse direction = 50             
+Number of cells in the y direction = 1   
+Expansion rate in transverse direction = 500            
+Expansion rate in the downstream direction = 100           
+Expansion rate along the inlet arc = 50       
+

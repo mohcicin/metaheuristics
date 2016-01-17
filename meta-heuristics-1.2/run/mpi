@@ -1,0 +1,134 @@
+mpirun -np 21 tspMPIMASearch berlin52.tsp
+mv tspMPIMASearch.csv ./TSPMPIMA/berlin52.csv
+mpirun -np 3 tspMPISearch01 berlin52.tsp
+mv tspMPISearch01.csv ./TSPMPI01/berlin52.csv
+mpirun -np 21 tspMPISearch02 berlin52.tsp
+mv tspMPISearch02.csv ./TSPMPI02/berlin52.csv
+mpirun -np 4 tspMPISearch03 berlin52.tsp
+mv tspMPISearch03.csv ./TSPMPI03/berlin52.csv
+mpirun -np 21 tspMPISearch04 berlin52.tsp
+mv tspMPISearch04.csv ./TSPMPI04/berlin52.csv
+
+mpirun -np 21 tspMPIMASearch eil101.tsp
+mv tspMPIMASearch.csv ./TSPMPIMA/eil101.csv
+mpirun -np 3 tspMPISearch01 eil101.tsp
+mv tspMPISearch01.csv ./TSPMPI01/eil101.csv
+mpirun -np 21 tspMPISearch02 eil101.tsp
+mv tspMPISearch02.csv ./TSPMPI02/eil101.csv
+mpirun -np 4 tspMPISearch03 eil101.tsp
+mv tspMPISearch03.csv ./TSPMPI03/eil101.csv
+mpirun -np 21 tspMPISearch04 eil101.tsp
+mv tspMPISearch04.csv ./TSPMPI04/eil101.csv
+
+
+mpirun -np 21 tspMPIMASearch ali535.tsp
+mv tspMPIMASearch.csv ./TSPMPIMA/ali535.csv
+mpirun -np 3 tspMPISearch01 ali535.tsp
+mv tspMPISearch01.csv ./TSPMPI01/ali535.csv
+mpirun -np 21 tspMPISearch02 ali535.tsp
+mv tspMPISearch02.csv ./TSPMPI02/ali535.csv
+mpirun -np 4 tspMPISearch03 ali535.tsp
+mv tspMPISearch03.csv ./TSPMPI03/ali535.csv
+mpirun -np 21 tspMPISearch04 ali535.tsp
+mv tspMPISearch04.csv ./TSPMPI04/ali535.csv
+
+mpirun -np 21 vrpMPIMASearch 102_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/102_stop.csv
+mpirun -np 21 vrpMPISearch 102_stop.con
+mv vrpMPISearch.csv ./VRPMPI/102_stop.csv
+
+mpirun -np 21 vrpMPIMASearch 277_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/277_stop.csv
+mpirun -np 21 vrpMPISearch 277_stop.con
+mv vrpMPISearch.csv ./VRPMPI/277_stop.csv
+
+mpirun -np 21 vrpMPIMASearch 335_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/335_stop.csv
+mpirun -np 21 vrpMPISearch 335_stop.con
+mv vrpMPISearch.csv ./VRPMPI/335_stop.csv
+
+mpirun -np 21 vrpMPIMASearch 444_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/444_stop.csv
+mpirun -np 21 vrpMPISearch 444_stop.con
+mv vrpMPISearch.csv ./VRPMPI/444_stop.csv
+
+mpirun -np 21 vrpMPIMASearch 804_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/804_stop.csv
+mpirun -np 21 vrpMPISearch 804_stop.con
+mv vrpMPISearch.csv ./VRPMPI/804_stop.csv
+
+mpirun -np 21 tspMPIMASearch pr2392.tsp
+mv tspMPIMASearch.csv ./TSPMPIMA/pr2392.csv
+mpirun -np 3 tspMPISearch01 pr2392.tsp
+mv tspMPISearch01.csv ./TSPMPI01/pr2392.csv
+mpirun -np 21 tspMPISearch02 pr2392.tsp
+mv tspMPISearch02.csv ./TSPMPI02/pr2392.csv
+mpirun -np 4 tspMPISearch03 pr2392.tsp
+mv tspMPISearch03.csv ./TSPMPI03/pr2392.csv
+mpirun -np 21 tspMPISearch04 pr2392.tsp
+mv tspMPISearch04.csv ./TSPMPI04/pr2392.csv
+
+mpirun -np 21 vrpMPIMASearch 1051_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/1051_stop.csv
+mpirun -np 21 vrpMPISearch 1051_stop.con
+mv vrpMPISearch.csv ./VRPMPI/1051_stop.csv
+
+mpirun -np 21 vrpMPIMASearch 1351_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/1351_stop.csv
+mpirun -np 21 vrpMPISearch 1351_stop.con
+mv vrpMPISearch.csv ./VRPMPI/1351_stop.csv
+
+mpirun -np 21 vrpMPIMASearch 1599_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/1599_stop.csv
+mpirun -np 21 vrpMPISearch 1599_stop.con
+mv vrpMPISearch.csv ./VRPMPI/1599_stop.csv
+
+mpirun -np 21 tspMPIMASearch rl5915.tsp
+mv tspMPIMASearch.csv ./TSPMPIMA/rl5915.csv
+mpirun -np 3 tspMPISearch01 rl5915.tsp
+mv tspMPISearch01.csv ./TSPMPI01/rl5915.csv
+mpirun -np 21 tspMPISearch02 rl5915.tsp
+mv tspMPISearch02.csv ./TSPMPI02/rl5915.csv
+mpirun -np 4 tspMPISearch03 rl5915.tsp
+mv tspMPISearch03.csv ./TSPMPI03/rl5915.csv
+mpirun -np 21 tspMPISearch04 rl5915.tsp
+mv tspMPISearch04.csv ./TSPMPI04/rl5915.csv
+
+mpirun -np 21 vrpMPIMASearch 1932_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/1932_stop.csv
+mpirun -np 21 vrpMPISearch 1932_stop.con
+mv vrpMPISearch.csv ./VRPMPI/1932_stop.csv
+
+mpirun -np 21 vrpMPIMASearch 2100_stop.con
+mv vrpMPIMASearch.csv ./VRPMPIMA/2100_stop.csv
+mpirun -np 21 vrpMPISearch 2100_stop.con
+mv vrpMPISearch.csv ./VRPMPI/2100_stop.csv
+
+mpirun -np 21 tspMPIMASearch usa13509.tsp
+mv tspMPIMASearch.csv ./TSPMPIMA/usa13509.csv
+mpirun -np 3 tspMPISearch01 usa13509.tsp
+mv tspMPISearch01.csv ./TSPMPI01/usa13509.csv
+mpirun -np 21 tspMPISearch02 usa13509.tsp
+mv tspMPISearch02.csv ./TSPMPI02/usa13509.csv
+mpirun -np 4 tspMPISearch03 usa13509.tsp
+mv tspMPISearch03.csv ./TSPMPI03/usa13509.csv
+mpirun -np 21 tspMPISearch04 usa13509.tsp
+mv tspMPISearch04.csv ./TSPMPI04/usa13509.csv
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

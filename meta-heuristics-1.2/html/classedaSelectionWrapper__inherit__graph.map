@@ -1,0 +1,6 @@
+<map id="edaSelectionWrapper" name="edaSelectionWrapper">
+<area shape="rect" id="node3" href="$classedaBestSelectWrapper.html" title="Lớp edaBestSelectWrapper thực hiện việc chọn lời giải có hàm lượng giá tốt nhất trong tập lời giải đư..." alt="" coords="5,83,184,112"/>
+<area shape="rect" id="node5" href="$classedaFullSelectWrapper.html" title="Lớp edaFullSelectWrapper thực hiện việc chọn tất cả các lời giải trong danh sách lời giải và đưa chún..." alt="" coords="208,83,373,112"/>
+<area shape="rect" id="node7" href="$classedaIDSelectWrapper.html" title="Lớp edaIDSelectWrapper thực hiện việc chọn lời giải theo thứ tự của chúng trong sanh sách lời giải..." alt="" coords="397,83,557,112"/>
+<area shape="rect" id="node9" href="$classedaNoSelectWapper.html" title="Lớp edaNoSelectWapper thực hiện việc loại bỏ tất cả các lời giải trong sanh sách lời giải..." alt="" coords="581,83,739,112"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="Kiến trúc đồ họa của Class" name="Kiến trúc đồ họa của Class">
+<area shape="rect" id="node1" href="$classedaSelectionWrapper.html" title="Lớp trừu tượng edaSelectionWrapper thực hiện việc chọn lời giải với các chiến lược hổ trợ trong thư v..." alt="" coords="5,85,171,115"/>
+<area shape="rect" id="node3" href="$classedaBestSelectWrapper.html" title="Lớp edaBestSelectWrapper thực hiện việc chọn lời giải có hàm lượng giá tốt nhất trong tập lời giải đư..." alt="" coords="219,5,397,35"/>
+<area shape="rect" id="node5" href="$classedaFullSelectWrapper.html" title="Lớp edaFullSelectWrapper thực hiện việc chọn tất cả các lời giải trong danh sách lời giải và đưa chún..." alt="" coords="225,59,391,88"/>
+<area shape="rect" id="node7" href="$classedaIDSelectWrapper.html" title="Lớp edaIDSelectWrapper thực hiện việc chọn lời giải theo thứ tự của chúng trong sanh sách lời giải..." alt="" coords="228,112,388,141"/>
+<area shape="rect" id="node9" href="$classedaNoSelectWapper.html" title="Lớp edaNoSelectWapper thực hiện việc loại bỏ tất cả các lời giải trong sanh sách lời giải..." alt="" coords="229,165,387,195"/>
+</map>

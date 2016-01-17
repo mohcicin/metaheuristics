@@ -1,0 +1,4 @@
+<map id="edaRouletteWheelSelection" name="edaRouletteWheelSelection">
+<area shape="rect" id="node2" href="$classedaNaturalSelection.html" title="Lớp trừ tượng edaNaturalSelection hiện thực các chiến lược chọn lọc tự nhiên. " alt="" coords="32,83,189,112"/>
+<area shape="rect" id="node4" href="$classedaSerialize.html" title="Lớp edaSerialize hiện thực cơ chế gói và giải gói cho các đối tượng phức tạp. " alt="" coords="60,5,161,35"/>
+</map>
